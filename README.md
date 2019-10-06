@@ -25,7 +25,7 @@ Os proponemos seguir esta estructura de manera que cada solución esté dentro d
         ├ js/
         | └ main.js 
         └ styles/
-        | └ main.css
+          └ main.css
 ```
 
 ### Tengo un ejercicio solucionado pero ya lo ha subido alguien al repo
