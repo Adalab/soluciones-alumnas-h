@@ -40,10 +40,10 @@ Pues lo subimos a una rama y creamos una issue de moda pidiendo ayuda a compañe
 
 Estos son los repos de las anteriores promociones, pero hay que tener en cuenta que los enunciados de los ejercicios pueden haber cambiado de una promoción a otra.
 
-https://github.com/Adalab/soluciones-alumnas-G
-https://github.com/Adalab/soluciones-alumnas-f
-https://github.com/Adalab/soluciones-alumnas-e
-https://github.com/Adalab/soluciones-alumnas-d
-https://github.com/Adalab/soluciones-alumnas-c
+- https://github.com/Adalab/soluciones-alumnas-G
+- https://github.com/Adalab/soluciones-alumnas-f
+- https://github.com/Adalab/soluciones-alumnas-e
+- https://github.com/Adalab/soluciones-alumnas-d
+- https://github.com/Adalab/soluciones-alumnas-c
 
 :)
