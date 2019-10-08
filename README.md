@@ -18,9 +18,9 @@ Os proponemos seguir esta estructura de manera que cada solución esté dentro d
 
 ```
 /soluciones-h
-  └ modulo1/
-    └ s1.1/
-      └ ej01-mi-nombre/
+  └ module-1/
+    └ exercise-1-1/
+      └ ej01-my-name/
         ├ index.html
         ├ js/
         | └ main.js 
