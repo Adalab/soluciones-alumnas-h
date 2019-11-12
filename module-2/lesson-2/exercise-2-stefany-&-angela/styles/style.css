@@ -1,0 +1,11 @@
+.main {
+  background-color: pink;
+}
+
+.main__title {
+  color: red;
+}
+
+.moreSize {
+  font-size: 40px;
+}
