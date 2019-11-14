@@ -1,6 +1,6 @@
 'use strict';
 
-const selectorTitle = '.image';
+const selectorTitle = '.title';
 
 function getEl (a){
     return document.querySelector(a);
@@ -13,3 +13,17 @@ if (titleEl===null){
 } else {
     console.log(titleEl);
 }
+
+/*const selectorImage = '.image';
+
+function getEl (a){
+    return document.querySelector(a);
+}
+
+const imageEl = getEl(selectorImage);
+
+if (imageEl===null){
+    console.error(`No existe ningún elemento con clase, id o tag llamado ${selectorImage}`);
+} else {
+    console.log(imageEl);
+}*/

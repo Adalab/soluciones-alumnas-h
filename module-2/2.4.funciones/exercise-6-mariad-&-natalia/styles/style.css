@@ -1,0 +1,12 @@
+.wrapper{
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightsteelblue;
+    padding: 10px;
+}
+.text{
+    text-align: center;
+}
