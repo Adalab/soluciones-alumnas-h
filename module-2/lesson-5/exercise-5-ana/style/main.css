@@ -1,0 +1,12 @@
+.left {
+    border: red 1px solid;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+
+.right {
+    border: green 1px solid;
+    height: 100px;
+
+}
