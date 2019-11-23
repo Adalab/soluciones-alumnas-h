@@ -3,22 +3,16 @@
 
 
 
-function createTreePepi(height) {
-    let trianguleP = '▲';
-    let startP = '*'
-    const lineLenght = height + 1;
-
-    for (let i = 0; i < height; i++) {
-        const half = (lineLenght - i) / 2;
-        if (i === 0) {
-            console.log(' '.repeat(half), startP, ' '.repeat(half));
-            console.log(' '.repeat(half), trianguleP, ' '.repeat(half));
-        } else {
-            console.log(' '.repeat(half), trianguleP.repeat(i), ' '.repeat(half));
-        }
+let triangule = "";
+for (let iterator = 1; iterator <= 10; iterator++) {
+    triangule = "";
+    // console.log(triangule);
+    for (let j = iterator; j < 10; j++) {
+        triangule += " ";
+        // console.log(triangule);
     }
-
-    console.log(' '.repeat(lineLenght / 2), '|', ' '.repeat(lineLenght / 2));
+    for (let k = 0; k < (iterator * 2) - 1; k++) {
+        triangule += "▲";
+    }
+    console.log(triangule);
 }
-
-createTreePepi(10);
