@@ -1,0 +1,18 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    padding: 50px;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#images{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#images img{
+    max-width: 200px;
+    height: auto;
+    max-height: auto;
+}
