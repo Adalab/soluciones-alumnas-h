@@ -1,0 +1,8 @@
+body{
+    padding: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.complete-task{
+    text-decoration: line-through;
+}

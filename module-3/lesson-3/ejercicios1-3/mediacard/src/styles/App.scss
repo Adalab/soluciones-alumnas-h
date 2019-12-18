@@ -1,0 +1,38 @@
+@import 'vars';
+
+.app{
+  width: 100%;
+  min-height: 100vh;
+  margin: 0px;
+  background-color: rgb(238, 238, 238);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+  width: 400px;
+  background-color: $color-white;
+  padding: 20px;
+  box-shadow: 0px 4px 10px 0px lightgray;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.image{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: red;
+  background-image: url('../images/imagen.jpg');
+}
+
+.article-footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
