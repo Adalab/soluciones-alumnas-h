@@ -1,0 +1,44 @@
+.App {
+  width: 100%;
+  min-height: 100vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eaeaea;
+}
+
+.text-area{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.red{
+  background-color: red;
+}
+
+.destination-image{
+  height: 450px;
+}
+
+.item{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+  width: 60vw;
+}
+
+.item-list{
+  list-style: none;
+}
+
+.item-list li{
+  margin-top: 5px;
+}
