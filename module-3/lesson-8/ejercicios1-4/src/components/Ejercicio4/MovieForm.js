@@ -3,14 +3,6 @@ import React from 'react';
 class MovieForm extends React.Component{
     constructor(props){
         super(props);
-        this.state = {
-            title: '',
-            description: '',
-            language: '',
-            age:'',
-            genres: [],
-            file: 'https://via.placeholder.com/200x300/#eaeaea/ffffff/?text=poster'
-        }
         this.handleFormChange = this.handleFormChange.bind(this);
         this.handleRadioChange = this.handleRadioChange.bind(this);
         this.handleCheckboxChange = this.handleCheckboxChange.bind(this);
@@ -43,20 +35,20 @@ class MovieForm extends React.Component{
                 <label htmlFor="title">Movie title:</label>
                 <input 
                     type="text" 
-                    //value={this.state.title} //¡BREAKS!
+                    value={this.props.title}
                     name="title" 
                     id="title" 
                     onChange={this.handleFormChange}/>
                 <label htmlFor="description">Description:</label>
                 <textarea 
-                    //value={this.state.description} //¡BREAKS!
+                    value={this.props.description}
                     name="description" 
                     id="description" 
                     onChange={this.handleFormChange}/>
                 <label htmlFor="language">Language:</label>
                 <input 
                     type="text" 
-                    //value={this.state.language} //¡BREAKS!
+                    value={this.props.language}
                     name="language" 
                     id="language" 
                     onChange={this.handleFormChange}/>

@@ -24,6 +24,9 @@ class Movie extends React.Component{
             <div className="movie">
                 <MovieForm 
                     handleFormChange={this.handleFormChange}
+                    title={this.state.title}
+                    description={this.state.description}
+                    language={this.state.language}
                 />
                 <MovieCard 
                     title={this.state.title}

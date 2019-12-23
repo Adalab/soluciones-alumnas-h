@@ -64,6 +64,10 @@ class Movie extends React.Component{
                     handleRadioChange={this.handleRadioChange}
                     handleCheckboxChange={this.handleCheckboxChange}
                     handleFileChange={this.handleFileChange}
+                    title={this.state.title}
+                    description={this.state.description}
+                    language={this.state.language}
+
                 />
                 <MovieCard 
                     title={this.state.title}
