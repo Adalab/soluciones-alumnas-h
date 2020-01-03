@@ -1,0 +1,59 @@
+.App {
+  width: 100%;
+  min-height: 100vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eaeaea;
+}
+
+.square{
+  width: 200px;
+  height: 200px;
+  background-color: white;
+}
+
+.change-bg{
+  background-color: lightpin
+}
+
+.clock{
+  font-size: 100px;
+}
+
+.sheep-counter{
+  font-size: 300px;
+}
+
+.sheep-counter-number{
+  font-size: 100px;
+}
+
+.count-sheeps{
+  display: block;
+  width: 200px;
+  height: 50px;
+  margin: auto;
+}
+
+.sheeps{
+  margin: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.sheep{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-image: url('../images/sheep.png');
+  background-size: cover;
+}
+
+label, input{
+  display: block;
+  margin: 5px;
+}
