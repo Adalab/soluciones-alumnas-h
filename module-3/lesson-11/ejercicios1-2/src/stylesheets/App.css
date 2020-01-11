@@ -1,0 +1,136 @@
+/* CSS EJERCICIO 01:
+
+*{
+
+  box-sizing: border-box;
+}
+
+.App {
+  width: 100%;
+  min-height: 100vh;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #eaeaea;
+}
+
+label, input, textarea {
+  display: block;
+  margin: 5px;
+}
+
+a{
+  text-decoration: none;
+}
+
+ul li{
+  list-style: none;
+  margin: 5px;
+}
+
+.center{
+  text-align: center;
+}
+
+header, header nav ul{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+header a{
+  flex: 1;
+  line-height: 80px;
+  text-align: center;
+}
+
+section{
+  width: 100%;
+  height: calc(100vh - 80px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px;
+}
+
+.tab1{
+  background-color: lightblue;
+}
+
+.tab2{
+  background-color: lavender;
+}
+
+.tab3{
+  background-color: lavenderblush;
+} */
+
+
+
+.App {
+  width: 100%;
+  min-height: 100vh;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: #eaeaea;
+}
+
+input, textarea {
+  display: block;
+  margin: 5px;
+}
+
+ul li {
+  list-style: none;
+}
+
+.hidden{
+  display: none;
+}
+
+.profile-picture{
+  width: 120px;
+  height: 120px;
+  background-size: cover;
+}
+
+.details-picture{
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+}
+
+.user{
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.user-data{
+  margin-left: 20px;
+}
+
+.user-data h3{
+  margin: 0px;
+}
+
+.user-data p{
+  margin-top: 5px;
+}
+
+.location-item, .sex{
+  display: flex;
+}
+
+
+
+
+

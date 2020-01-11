@@ -1,0 +1,53 @@
+.App {
+  width: 100%;
+  min-height: 100vh;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: #eaeaea;
+}
+
+input, textarea {
+  display: block;
+  margin: 5px;
+}
+
+ul li {
+  list-style: none;
+}
+
+.hidden{
+  display: none;
+}
+
+.profile-picture{
+  width: 80px;
+  height: 80px;
+  background-size: cover;
+}
+
+.user{
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.user-data{
+  margin-left: 20px;
+}
+
+.user-data h3{
+  margin: 0px;
+}
+
+.user-data p{
+  margin-top: 5px;
+}
+
+.location-item, .sex{
+  display: flex;
+}
+
+
+

@@ -1,0 +1,158 @@
+.App {
+  width: 100%;
+  min-height: 100vh;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: #eaeaea;
+}
+
+input, textarea {
+  display: block;
+  margin: 5px;
+}
+
+ul li {
+  list-style: none;
+}
+
+.collapsible-top{
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.collapsible-top span{
+  font-size: 40px;
+}
+
+.collapsible-bottom{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hidden{
+  display: none;
+}
+
+li.palette-colour{
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+}
+
+
+
+.movie{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.movie-card{
+  width: 250px;
+  height: 300px;
+  margin: 0 50px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 0 5px 0 lightgrey; 
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.movie-card span{
+  color: grey;
+}
+
+.input-radio{
+  display: flex;
+  align-items: center;
+}
+
+.input-checkbox{
+  display: flex;
+  align-items: center;
+}
+
+.age-rate{
+  width: 80px;
+}
+
+.genres{
+  width: 100px;
+}
+
+.age-genres{
+  display: flex;
+  align-items: flex-start;
+}
+
+.card-footer{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.card-footer p{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  background-color: grey;
+  color: white;
+  line-height: 30px;
+}
+
+.genre li{
+  list-style: none;
+  display: inline-block;
+  margin: 5px;
+  padding: 5px;
+  background-color: #eaeaea;
+}
+
+.movie-card-4{
+  width: 550px;
+  height: 300px;
+  margin: 0 50px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 0 5px 0 lightgrey; 
+  text-align: left;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.movie-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex: 1;
+}
+
+.movie-poster{
+  width: 200px;
+  height: 100%;
+  margin-right: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.movie-poster img{
+  width: 200px;
+}
+
+
+

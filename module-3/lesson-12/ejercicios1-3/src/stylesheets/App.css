@@ -1,0 +1,83 @@
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+input{
+  margin: 10px;
+}
+
+.App {
+  width: 100%;
+  min-height: 100vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eaeaea;
+}
+
+.App-clock{
+  width: 100%;
+  min-height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #eaeaea;
+}
+
+.light{
+  background-color: #eaeaea;
+  color: rgb(34, 34, 34);
+}
+.dark{
+  color: #eaeaea;
+  background-color: rgb(71, 69, 69);
+}
+
+.wrapper-clock{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-clock form{
+  width: 100%;
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.clock{
+  font-size: 100px;
+  width: 480px;
+}
+
+.clock-nav{
+  height: 80px;
+  margin-right: 30px;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.relax-text{
+  font-size: 100px;
+  margin: 0px;
+  width: 480px;
+}
+
+.people li{
+  list-style: none;
+  margin: 10px;
+  text-align: left;
+}
+
+.people h2, .people p{
+  margin: 0px;
+}
+
+
